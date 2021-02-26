@@ -1,0 +1,27 @@
+{
+    "name": "express-typescript-webpack",
+    "version": "1.0.0",
+    "author": "Coz <cozitive.dev@gmail.com>",
+    "license": "MIT",
+    "description": "Publishing Express.js (with TypeScript) with Webpack",
+    "bugs": "https://github.com/cozitive/express-typescript-webpack/issues",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cozitive/express-typescript-webpack.git"
+    },
+    "files": [
+        "src"
+    ],
+    "dependencies": {
+        "@types/express": "^4.17.11",
+        "express": "^4.17.1",
+        "ts-loader": "^8.0.17",
+        "typescript": "^4.2.2",
+        "webpack": "^5.24.2",
+        "webpack-cli": "^4.5.0"
+    },
+    "scripts": {
+        "build": "webpack",
+        "server": "node ./build/script.js"
+    }
+}
